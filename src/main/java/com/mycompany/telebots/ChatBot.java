@@ -35,9 +35,9 @@ import okhttp3.*;
  * @author HP
  */
 public class ChatBot extends TelegramLongPollingBot {
-    private static final String OPENAI_API_KEY = "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";
-    private static final String BOT_TOKEN = "6389117273:AAFx7m6XSoBLFlL_cDoBujV1D7j-zJ3xE24";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/telebot";
+    private static final String OPENAI_API_KEY = "YOUR_TOKEN_APIGPT";
+    private static final String BOT_TOKEN = "YOUR_TOKEN_TELEBOT";
+    private static final String DB_URL = "YOUR_URL_DATABASE";
     private static final String DB_USERNAME = "root";
     private static final String DB_PASSWORD = "";
     
@@ -249,7 +249,7 @@ public class ChatBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "nanWaeBot";
+        return "YOUR_USERNAME_BOT";
     }
 
     @Override
